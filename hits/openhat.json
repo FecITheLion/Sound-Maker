@@ -1,0 +1,88 @@
+{
+    "name": "OpenHat",
+    "noise": {
+        "kind": "violet",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.1,
+                0.35,
+                1.1
+            ]
+        },
+        "toneFreq": {
+            "seed": 5000,
+            "curve": "freq"
+        },
+        "noiseDecay": {
+            "range": [
+                4,
+                14,
+                40
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                4,
+                18,
+                50
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0.4,
+                0.9,
+                1.5
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0,
+                0.05,
+                0.3
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.8,
+                0.96,
+                0.99
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.3,
+                0.75,
+                0.95
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.2,
+                0.7
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1,
+                2
+            ]
+        }
+    }
+}

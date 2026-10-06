@@ -1,0 +1,88 @@
+{
+    "name": "Tom",
+    "noise": {
+        "kind": "pink",
+        "seed": 1
+    },
+    "shape": "tanh",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.1,
+                0.4,
+                1.2
+            ]
+        },
+        "toneFreq": {
+            "seed": 110,
+            "curve": "freq*(1-0.28*min(time\/0.06,1))"
+        },
+        "noiseDecay": {
+            "range": [
+                6,
+                22,
+                60
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                3,
+                8,
+                24
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0,
+                0.2,
+                0.7
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.4,
+                0.85,
+                1.4
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.1,
+                0.4,
+                0.8
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.1,
+                0.5,
+                0.85
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.25,
+                0.7
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.6,
+                3
+            ]
+        }
+    }
+}

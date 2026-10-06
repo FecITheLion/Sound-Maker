@@ -1,0 +1,88 @@
+{
+    "name": "Crash",
+    "noise": {
+        "kind": "white",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.4,
+                1.4,
+                3.5
+            ]
+        },
+        "toneFreq": {
+            "seed": 3500,
+            "curve": "freq"
+        },
+        "noiseDecay": {
+            "range": [
+                2,
+                5,
+                16
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                2,
+                6,
+                18
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0.6,
+                1,
+                1.6
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0,
+                0.08,
+                0.3
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.7,
+                0.92,
+                0.98
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.2,
+                0.55,
+                0.9
+            ]
+        },
+        "click": {
+            "range": [
+                0.1,
+                0.3,
+                0.8
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.2,
+                2
+            ]
+        }
+    }
+}

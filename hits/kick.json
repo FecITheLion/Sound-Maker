@@ -1,0 +1,88 @@
+{
+    "name": "Kick",
+    "noise": {
+        "kind": "brown",
+        "seed": 1
+    },
+    "shape": "tanh",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.12,
+                0.45,
+                1.2
+            ]
+        },
+        "toneFreq": {
+            "seed": 70,
+            "curve": "freq*(1-0.72*min(time\/0.05,1))+28"
+        },
+        "noiseDecay": {
+            "range": [
+                8,
+                40,
+                120
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                4,
+                10,
+                30
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0,
+                0.18,
+                0.6
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.4,
+                0.9,
+                1.5
+            ]
+        },
+        "highPass": {
+            "range": [
+                0,
+                0.2,
+                0.6
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.05,
+                0.4,
+                0.9
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.25,
+                0.8
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.6,
+                3
+            ]
+        }
+    }
+}

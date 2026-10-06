@@ -1,0 +1,88 @@
+{
+    "name": "Snare",
+    "noise": {
+        "kind": "white",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.08,
+                0.35,
+                0.9
+            ]
+        },
+        "toneFreq": {
+            "seed": 190,
+            "curve": "freq*(1-0.35*min(time\/0.08,1))"
+        },
+        "noiseDecay": {
+            "range": [
+                8,
+                28,
+                80
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                4,
+                12,
+                40
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0.2,
+                0.55,
+                1.2
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.1,
+                0.45,
+                1
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.4,
+                0.86,
+                0.97
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.2,
+                0.7,
+                0.95
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.25,
+                0.8
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.2,
+                2
+            ]
+        }
+    }
+}

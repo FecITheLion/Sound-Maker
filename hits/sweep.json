@@ -1,0 +1,88 @@
+{
+    "name": "Sweep",
+    "noise": {
+        "kind": "pink",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.3,
+                1,
+                3
+            ]
+        },
+        "toneFreq": {
+            "seed": 400,
+            "curve": "freq*pow(2,time*2)"
+        },
+        "noiseDecay": {
+            "range": [
+                2,
+                6,
+                20
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                2,
+                5,
+                16
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0.2,
+                0.6,
+                1.2
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.3,
+                0.7,
+                1.2
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.2,
+                0.6,
+                0.9
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.1,
+                0.4,
+                0.8
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.15,
+                0.5
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.2,
+                2
+            ]
+        }
+    }
+}

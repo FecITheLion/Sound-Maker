@@ -1,0 +1,88 @@
+{
+    "name": "Clap",
+    "noise": {
+        "kind": "pink",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0.012,
+    "dubRatio": 1,
+    "attack": 50,
+    "params": {
+        "duration": {
+            "range": [
+                0.08,
+                0.28,
+                0.7
+            ]
+        },
+        "toneFreq": {
+            "seed": 1400,
+            "curve": "freq"
+        },
+        "noiseDecay": {
+            "range": [
+                12,
+                36,
+                90
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                8,
+                40,
+                100
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0.4,
+                0.85,
+                1.5
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0,
+                0.08,
+                0.4
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.7,
+                0.94,
+                0.98
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.3,
+                0.8,
+                0.97
+            ]
+        },
+        "click": {
+            "range": [
+                0.1,
+                0.3,
+                0.9
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.1,
+                2
+            ]
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "name": "Cowbell",
+    "noise": {
+        "kind": "white",
+        "seed": 1
+    },
+    "shape": "cowbell",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.08,
+                0.4,
+                1.2
+            ]
+        },
+        "toneFreq": {
+            "seed": 587,
+            "curve": "freq"
+        },
+        "noiseDecay": {
+            "range": [
+                3,
+                10,
+                30
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                2,
+                7,
+                20
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0,
+                0.05,
+                0.3
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.4,
+                0.8,
+                1.3
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.2,
+                0.5,
+                0.85
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.15,
+                0.6,
+                0.9
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.2,
+                0.6
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.2,
+                2
+            ]
+        }
+    }
+}

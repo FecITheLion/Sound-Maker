@@ -1,0 +1,88 @@
+{
+    "name": "SubKick",
+    "noise": {
+        "kind": "brown",
+        "seed": 1
+    },
+    "shape": "tanh",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.3,
+                0.8,
+                2
+            ]
+        },
+        "toneFreq": {
+            "seed": 42,
+            "curve": "freq*(1-0.5*min(time\/0.08,1))+20"
+        },
+        "noiseDecay": {
+            "range": [
+                6,
+                20,
+                60
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                3,
+                7,
+                20
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0,
+                0.1,
+                0.4
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.6,
+                1,
+                1.4
+            ]
+        },
+        "highPass": {
+            "range": [
+                0,
+                0.1,
+                0.4
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.02,
+                0.2,
+                0.5
+            ]
+        },
+        "click": {
+            "range": [
+                0,
+                0.1,
+                0.4
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.8,
+                3
+            ]
+        }
+    }
+}

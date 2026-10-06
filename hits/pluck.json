@@ -1,0 +1,88 @@
+{
+    "name": "Pluck",
+    "noise": {
+        "kind": "white",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 30,
+    "params": {
+        "duration": {
+            "range": [
+                0.1,
+                0.4,
+                1.5
+            ]
+        },
+        "toneFreq": {
+            "seed": 440,
+            "curve": "freq"
+        },
+        "noiseDecay": {
+            "range": [
+                6,
+                20,
+                60
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                2,
+                6,
+                20
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0,
+                0.05,
+                0.25
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.5,
+                0.9,
+                1.4
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.1,
+                0.4,
+                0.8
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.1,
+                0.45,
+                0.85
+            ]
+        },
+        "click": {
+            "range": [
+                0.1,
+                0.4,
+                1
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.2,
+                2
+            ]
+        }
+    }
+}

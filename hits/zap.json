@@ -1,0 +1,88 @@
+{
+    "name": "Zap",
+    "noise": {
+        "kind": "blue",
+        "seed": 1
+    },
+    "shape": "sine",
+    "order": [
+        "click",
+        "noise",
+        "hp",
+        "tone",
+        "lp",
+        "drive"
+    ],
+    "gap": 0,
+    "dubRatio": 1,
+    "attack": 80,
+    "params": {
+        "duration": {
+            "range": [
+                0.08,
+                0.3,
+                0.8
+            ]
+        },
+        "toneFreq": {
+            "seed": 1500,
+            "curve": "freq*pow(2,-time*6)"
+        },
+        "noiseDecay": {
+            "range": [
+                6,
+                20,
+                60
+            ]
+        },
+        "toneDecay": {
+            "range": [
+                4,
+                12,
+                40
+            ]
+        },
+        "noiseMix": {
+            "range": [
+                0.1,
+                0.4,
+                1
+            ]
+        },
+        "toneMix": {
+            "range": [
+                0.4,
+                0.8,
+                1.4
+            ]
+        },
+        "highPass": {
+            "range": [
+                0.3,
+                0.7,
+                0.95
+            ]
+        },
+        "lowPass": {
+            "range": [
+                0.15,
+                0.5,
+                0.9
+            ]
+        },
+        "click": {
+            "range": [
+                0.1,
+                0.3,
+                0.8
+            ]
+        },
+        "drive": {
+            "range": [
+                1,
+                1.4,
+                2.5
+            ]
+        }
+    }
+}
